@@ -28,7 +28,7 @@ infix 50 _∘_
 
 -- Definition of Disjointness) x and y don't overlap.
 disjoint : 𝔼 → 𝔼 → Set
-disjoint x y = ¬ (x ∘ y)    
+disjoint x y = ¬ (x ∘ y)
 
 -- Theorem) If x and y are equal, then x is part of y.
 identity-implies-part : ∀ (x y : 𝔼) → x ≡ y → x ⊑ y
