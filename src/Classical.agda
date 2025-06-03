@@ -23,7 +23,7 @@ infix 50 _⊏_
 
 -- Definition of Overlap) x and y have a part in common.
 _∘_ : 𝔼 → 𝔼 → Set
-x ∘ y = ∃ λ z → (z ⊑ x) × (z ⊑ y)
+x ∘ y = ∃[ z ] (z ⊑ x × z ⊑ y)
 infix 50 _∘_
 
 -- Definition of Disjointness) x and y don't overlap.
