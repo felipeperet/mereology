@@ -1,3 +1,1 @@
 # Mereology
-
-Teste
